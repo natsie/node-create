@@ -1,0 +1,30 @@
+{
+  "name": "create",
+  "version": "0.0.1",
+  "description": "A command-line program for creating files and folders.",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cr": "main.js",
+    "create": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsie/node-create.git"
+  },
+  "keywords": [
+    "create",
+    "mkdir",
+    "fs",
+    "touch"
+  ],
+  "author": "natsie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natsie/node-create/issues"
+  },
+  "homepage": "https://github.com/natsie/node-create#readme"
+}
